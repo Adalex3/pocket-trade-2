@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084C2DBBBBAB183EE081F931 /* Pods_Barter_BarterUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6ED72EC3A75598100CA8F5F /* Pods_Barter_BarterUITests.framework */; };
+		1E4EC40EB58CAD1150E3063F /* Pods_Barter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60CDDCF34AF4CBFE3EC663E3 /* Pods_Barter.framework */; };
+		345C080E60A1D26044CC723F /* Pods_BarterTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDDCA2F9BBF1DBAE99418B28 /* Pods_BarterTests.framework */; };
+		9004AAB429CF77BA0042FEA2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9004AAB329CF77BA0042FEA2 /* Item.swift */; };
+		9004AAB629CF7B9A0042FEA2 /* MarketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9004AAB529CF7B9A0042FEA2 /* MarketVC.swift */; };
+		9004AAB829CF86130042FEA2 /* CustomNav.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9004AAB729CF86130042FEA2 /* CustomNav.swift */; };
+		9004AABA29CF99AB0042FEA2 /* MeetupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9004AAB929CF99AB0042FEA2 /* MeetupVC.swift */; };
+		9004AABD29CF9A5C0042FEA2 /* MultipeerConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9004AABB29CF9A5C0042FEA2 /* MultipeerConnectivityManager.swift */; };
+		9004AABE29CF9A5C0042FEA2 /* NearbyInteractionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9004AABC29CF9A5C0042FEA2 /* NearbyInteractionManager.swift */; };
+		9024D5D229CFEA3700E55F45 /* ItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9024D5D129CFEA3700E55F45 /* ItemVC.swift */; };
+		9024D5D629CFF8CE00E55F45 /* swipeup.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9024D5D529CFF8CE00E55F45 /* swipeup.gif */; };
+		9024D5D829CFFBEA00E55F45 /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9024D5D729CFFBEA00E55F45 /* MapVC.swift */; };
+		9024D5DA29D00CDA00E55F45 /* MyItemsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9024D5D929D00CDA00E55F45 /* MyItemsVC.swift */; };
+		9024D5DC29D01B3500E55F45 /* BarterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9024D5DB29D01B3500E55F45 /* BarterVC.swift */; };
+		9024D5DE29D0248000E55F45 /* explode.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9024D5DD29D0248000E55F45 /* explode.gif */; };
+		9024D5E029D0280700E55F45 /* MeetupSuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9024D5DF29D0280700E55F45 /* MeetupSuccessVC.swift */; };
+		904A9F1229CF462200DE26C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F1129CF462200DE26C5 /* AppDelegate.swift */; };
+		904A9F1429CF462200DE26C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F1329CF462200DE26C5 /* SceneDelegate.swift */; };
+		904A9F1629CF462200DE26C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F1529CF462200DE26C5 /* ViewController.swift */; };
+		904A9F1929CF462200DE26C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904A9F1729CF462200DE26C5 /* Main.storyboard */; };
+		904A9F1C29CF462200DE26C5 /* Barter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F1A29CF462200DE26C5 /* Barter.xcdatamodeld */; };
+		904A9F1E29CF462300DE26C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 904A9F1D29CF462300DE26C5 /* Assets.xcassets */; };
+		904A9F2129CF462300DE26C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 904A9F1F29CF462300DE26C5 /* LaunchScreen.storyboard */; };
+		904A9F2C29CF462300DE26C5 /* BarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F2B29CF462300DE26C5 /* BarterTests.swift */; };
+		904A9F3629CF462300DE26C5 /* BarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F3529CF462300DE26C5 /* BarterUITests.swift */; };
+		904A9F3829CF462300DE26C5 /* BarterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F3729CF462300DE26C5 /* BarterUITestsLaunchTests.swift */; };
+		904A9F4629CF4DC500DE26C5 /* SignikaNegative-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 904A9F4529CF4DC500DE26C5 /* SignikaNegative-VariableFont_wght.ttf */; };
+		904A9F4729CF4DC500DE26C5 /* SignikaNegative-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 904A9F4529CF4DC500DE26C5 /* SignikaNegative-VariableFont_wght.ttf */; };
+		904A9F4829CF4DC500DE26C5 /* SignikaNegative-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 904A9F4529CF4DC500DE26C5 /* SignikaNegative-VariableFont_wght.ttf */; };
+		904A9F4B29CF623400DE26C5 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F4A29CF623300DE26C5 /* HapticManager.swift */; };
+		904A9F4C29CF623400DE26C5 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F4A29CF623300DE26C5 /* HapticManager.swift */; };
+		904A9F4D29CF623400DE26C5 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F4A29CF623300DE26C5 /* HapticManager.swift */; };
+		904A9F5329CF635A00DE26C5 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 904A9F5229CF635A00DE26C5 /* ItemCell.xib */; };
+		904A9F5429CF635A00DE26C5 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 904A9F5229CF635A00DE26C5 /* ItemCell.xib */; };
+		904A9F5529CF635A00DE26C5 /* ItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 904A9F5229CF635A00DE26C5 /* ItemCell.xib */; };
+		904A9F5729CF63E800DE26C5 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F5629CF63E800DE26C5 /* ItemCell.swift */; };
+		904A9F5829CF63E800DE26C5 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F5629CF63E800DE26C5 /* ItemCell.swift */; };
+		904A9F5929CF63E800DE26C5 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 904A9F5629CF63E800DE26C5 /* ItemCell.swift */; };
+		9067333629D04CB40039CD16 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9067333529D04CB40039CD16 /* FirestoreManager.swift */; };
+		9067333829D04E2C0039CD16 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9067333729D04E2C0039CD16 /* GoogleService-Info.plist */; };
+		9067333A29D06E760039CD16 /* SuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9067333929D06E760039CD16 /* SuccessVC.swift */; };
+		908F1BF729CFCC5E0004D0ED /* bump.mov in Resources */ = {isa = PBXBuildFile; fileRef = 908F1BF629CFCC5E0004D0ED /* bump.mov */; };
+		908F1BF929CFCCD50004D0ED /* BumpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 908F1BF829CFCCD50004D0ED /* BumpVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		904A9F2829CF462300DE26C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904A9F0629CF462200DE26C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904A9F0D29CF462200DE26C5;
+			remoteInfo = Barter;
+		};
+		904A9F3229CF462300DE26C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 904A9F0629CF462200DE26C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 904A9F0D29CF462200DE26C5;
+			remoteInfo = Barter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1647E133ABAAC99AE4D31DA3 /* Pods-BarterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarterTests.release.xcconfig"; path = "Target Support Files/Pods-BarterTests/Pods-BarterTests.release.xcconfig"; sourceTree = "<group>"; };
+		4C564A0FA73CF8AFF9F77E29 /* Pods-Barter-BarterUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barter-BarterUITests.release.xcconfig"; path = "Target Support Files/Pods-Barter-BarterUITests/Pods-Barter-BarterUITests.release.xcconfig"; sourceTree = "<group>"; };
+		571268FF51AF9D462425D05A /* Pods-Barter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barter.debug.xcconfig"; path = "Target Support Files/Pods-Barter/Pods-Barter.debug.xcconfig"; sourceTree = "<group>"; };
+		60CDDCF34AF4CBFE3EC663E3 /* Pods_Barter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9004AAB329CF77BA0042FEA2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9004AAB529CF7B9A0042FEA2 /* MarketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketVC.swift; sourceTree = "<group>"; };
+		9004AAB729CF86130042FEA2 /* CustomNav.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNav.swift; sourceTree = "<group>"; };
+		9004AAB929CF99AB0042FEA2 /* MeetupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupVC.swift; sourceTree = "<group>"; };
+		9004AABB29CF9A5C0042FEA2 /* MultipeerConnectivityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MultipeerConnectivityManager.swift; sourceTree = "<group>"; };
+		9004AABC29CF9A5C0042FEA2 /* NearbyInteractionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NearbyInteractionManager.swift; sourceTree = "<group>"; };
+		9024D5D129CFEA3700E55F45 /* ItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemVC.swift; sourceTree = "<group>"; };
+		9024D5D529CFF8CE00E55F45 /* swipeup.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = swipeup.gif; sourceTree = "<group>"; };
+		9024D5D729CFFBEA00E55F45 /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		9024D5D929D00CDA00E55F45 /* MyItemsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyItemsVC.swift; sourceTree = "<group>"; };
+		9024D5DB29D01B3500E55F45 /* BarterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarterVC.swift; sourceTree = "<group>"; };
+		9024D5DD29D0248000E55F45 /* explode.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = explode.gif; sourceTree = "<group>"; };
+		9024D5DF29D0280700E55F45 /* MeetupSuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetupSuccessVC.swift; sourceTree = "<group>"; };
+		904A9F0E29CF462200DE26C5 /* Barter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Barter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		904A9F1129CF462200DE26C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		904A9F1329CF462200DE26C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		904A9F1529CF462200DE26C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		904A9F1829CF462200DE26C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		904A9F1B29CF462200DE26C5 /* Barter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Barter.xcdatamodel; sourceTree = "<group>"; };
+		904A9F1D29CF462300DE26C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		904A9F2029CF462300DE26C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		904A9F2229CF462300DE26C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		904A9F2729CF462300DE26C5 /* BarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		904A9F2B29CF462300DE26C5 /* BarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarterTests.swift; sourceTree = "<group>"; };
+		904A9F3129CF462300DE26C5 /* BarterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		904A9F3529CF462300DE26C5 /* BarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarterUITests.swift; sourceTree = "<group>"; };
+		904A9F3729CF462300DE26C5 /* BarterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		904A9F4529CF4DC500DE26C5 /* SignikaNegative-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SignikaNegative-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		904A9F4A29CF623300DE26C5 /* HapticManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
+		904A9F5229CF635A00DE26C5 /* ItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCell.xib; sourceTree = "<group>"; };
+		904A9F5629CF63E800DE26C5 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		9067333529D04CB40039CD16 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		9067333729D04E2C0039CD16 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9067333929D06E760039CD16 /* SuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessVC.swift; sourceTree = "<group>"; };
+		908F1BF629CFCC5E0004D0ED /* bump.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = bump.mov; sourceTree = "<group>"; };
+		908F1BF829CFCCD50004D0ED /* BumpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BumpVC.swift; sourceTree = "<group>"; };
+		A079AA170071B21816014A8E /* Pods-Barter-BarterUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barter-BarterUITests.debug.xcconfig"; path = "Target Support Files/Pods-Barter-BarterUITests/Pods-Barter-BarterUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A980D2FBF11C1A4226EEC893 /* Pods-Barter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Barter.release.xcconfig"; path = "Target Support Files/Pods-Barter/Pods-Barter.release.xcconfig"; sourceTree = "<group>"; };
+		C439DE53CC38106A50B4F985 /* Pods-BarterTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BarterTests.debug.xcconfig"; path = "Target Support Files/Pods-BarterTests/Pods-BarterTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDDCA2F9BBF1DBAE99418B28 /* Pods_BarterTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BarterTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6ED72EC3A75598100CA8F5F /* Pods_Barter_BarterUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Barter_BarterUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		904A9F0B29CF462200DE26C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E4EC40EB58CAD1150E3063F /* Pods_Barter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904A9F2429CF462300DE26C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				345C080E60A1D26044CC723F /* Pods_BarterTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904A9F2E29CF462300DE26C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084C2DBBBBAB183EE081F931 /* Pods_Barter_BarterUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D042DC1CB289315DEF825F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60CDDCF34AF4CBFE3EC663E3 /* Pods_Barter.framework */,
+				F6ED72EC3A75598100CA8F5F /* Pods_Barter_BarterUITests.framework */,
+				CDDCA2F9BBF1DBAE99418B28 /* Pods_BarterTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		904A9F0529CF462200DE26C5 = {
+			isa = PBXGroup;
+			children = (
+				904A9F1029CF462200DE26C5 /* Barter */,
+				904A9F2A29CF462300DE26C5 /* BarterTests */,
+				904A9F3429CF462300DE26C5 /* BarterUITests */,
+				904A9F0F29CF462200DE26C5 /* Products */,
+				E573AEBE1ACB19D6591C7AA0 /* Pods */,
+				8D042DC1CB289315DEF825F8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		904A9F0F29CF462200DE26C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				904A9F0E29CF462200DE26C5 /* Barter.app */,
+				904A9F2729CF462300DE26C5 /* BarterTests.xctest */,
+				904A9F3129CF462300DE26C5 /* BarterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		904A9F1029CF462200DE26C5 /* Barter */ = {
+			isa = PBXGroup;
+			children = (
+				9067333729D04E2C0039CD16 /* GoogleService-Info.plist */,
+				904A9F4429CF4DB700DE26C5 /* fonts */,
+				904A9F1129CF462200DE26C5 /* AppDelegate.swift */,
+				904A9F1329CF462200DE26C5 /* SceneDelegate.swift */,
+				904A9F1529CF462200DE26C5 /* ViewController.swift */,
+				904A9F4A29CF623300DE26C5 /* HapticManager.swift */,
+				904A9F1729CF462200DE26C5 /* Main.storyboard */,
+				9067333929D06E760039CD16 /* SuccessVC.swift */,
+				9024D5DB29D01B3500E55F45 /* BarterVC.swift */,
+				9024D5DD29D0248000E55F45 /* explode.gif */,
+				9024D5DF29D0280700E55F45 /* MeetupSuccessVC.swift */,
+				9024D5D929D00CDA00E55F45 /* MyItemsVC.swift */,
+				9024D5D129CFEA3700E55F45 /* ItemVC.swift */,
+				9024D5D529CFF8CE00E55F45 /* swipeup.gif */,
+				908F1BF829CFCCD50004D0ED /* BumpVC.swift */,
+				9004AABB29CF9A5C0042FEA2 /* MultipeerConnectivityManager.swift */,
+				9004AABC29CF9A5C0042FEA2 /* NearbyInteractionManager.swift */,
+				9004AAB929CF99AB0042FEA2 /* MeetupVC.swift */,
+				9024D5D729CFFBEA00E55F45 /* MapVC.swift */,
+				9004AAB729CF86130042FEA2 /* CustomNav.swift */,
+				904A9F1D29CF462300DE26C5 /* Assets.xcassets */,
+				904A9F1F29CF462300DE26C5 /* LaunchScreen.storyboard */,
+				904A9F2229CF462300DE26C5 /* Info.plist */,
+				904A9F1A29CF462200DE26C5 /* Barter.xcdatamodeld */,
+				904A9F5229CF635A00DE26C5 /* ItemCell.xib */,
+				904A9F5629CF63E800DE26C5 /* ItemCell.swift */,
+				9004AAB529CF7B9A0042FEA2 /* MarketVC.swift */,
+				9004AAB329CF77BA0042FEA2 /* Item.swift */,
+				9067333529D04CB40039CD16 /* FirestoreManager.swift */,
+			);
+			path = Barter;
+			sourceTree = "<group>";
+		};
+		904A9F2A29CF462300DE26C5 /* BarterTests */ = {
+			isa = PBXGroup;
+			children = (
+				904A9F2B29CF462300DE26C5 /* BarterTests.swift */,
+			);
+			path = BarterTests;
+			sourceTree = "<group>";
+		};
+		904A9F3429CF462300DE26C5 /* BarterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				904A9F3529CF462300DE26C5 /* BarterUITests.swift */,
+				904A9F3729CF462300DE26C5 /* BarterUITestsLaunchTests.swift */,
+			);
+			path = BarterUITests;
+			sourceTree = "<group>";
+		};
+		904A9F4429CF4DB700DE26C5 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				908F1BF629CFCC5E0004D0ED /* bump.mov */,
+				904A9F4529CF4DC500DE26C5 /* SignikaNegative-VariableFont_wght.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		E573AEBE1ACB19D6591C7AA0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				571268FF51AF9D462425D05A /* Pods-Barter.debug.xcconfig */,
+				A980D2FBF11C1A4226EEC893 /* Pods-Barter.release.xcconfig */,
+				A079AA170071B21816014A8E /* Pods-Barter-BarterUITests.debug.xcconfig */,
+				4C564A0FA73CF8AFF9F77E29 /* Pods-Barter-BarterUITests.release.xcconfig */,
+				C439DE53CC38106A50B4F985 /* Pods-BarterTests.debug.xcconfig */,
+				1647E133ABAAC99AE4D31DA3 /* Pods-BarterTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		904A9F0D29CF462200DE26C5 /* Barter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904A9F3B29CF462300DE26C5 /* Build configuration list for PBXNativeTarget "Barter" */;
+			buildPhases = (
+				527CFA4F42EBDB508BA496E7 /* [CP] Check Pods Manifest.lock */,
+				904A9F0A29CF462200DE26C5 /* Sources */,
+				904A9F0B29CF462200DE26C5 /* Frameworks */,
+				904A9F0C29CF462200DE26C5 /* Resources */,
+				FCACD315280FE29FC84149D3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Barter;
+			productName = Barter;
+			productReference = 904A9F0E29CF462200DE26C5 /* Barter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		904A9F2629CF462300DE26C5 /* BarterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904A9F3E29CF462300DE26C5 /* Build configuration list for PBXNativeTarget "BarterTests" */;
+			buildPhases = (
+				67E3DEB2EFC3335DBA0F2339 /* [CP] Check Pods Manifest.lock */,
+				904A9F2329CF462300DE26C5 /* Sources */,
+				904A9F2429CF462300DE26C5 /* Frameworks */,
+				904A9F2529CF462300DE26C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904A9F2929CF462300DE26C5 /* PBXTargetDependency */,
+			);
+			name = BarterTests;
+			productName = BarterTests;
+			productReference = 904A9F2729CF462300DE26C5 /* BarterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		904A9F3029CF462300DE26C5 /* BarterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 904A9F4129CF462300DE26C5 /* Build configuration list for PBXNativeTarget "BarterUITests" */;
+			buildPhases = (
+				45124626DCFC5514FBEC1E7D /* [CP] Check Pods Manifest.lock */,
+				904A9F2D29CF462300DE26C5 /* Sources */,
+				904A9F2E29CF462300DE26C5 /* Frameworks */,
+				904A9F2F29CF462300DE26C5 /* Resources */,
+				C91D6CCD55201CF15BEEE42F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				904A9F3329CF462300DE26C5 /* PBXTargetDependency */,
+			);
+			name = BarterUITests;
+			productName = BarterUITests;
+			productReference = 904A9F3129CF462300DE26C5 /* BarterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		904A9F0629CF462200DE26C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					904A9F0D29CF462200DE26C5 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					904A9F2629CF462300DE26C5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 904A9F0D29CF462200DE26C5;
+					};
+					904A9F3029CF462300DE26C5 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 904A9F0D29CF462200DE26C5;
+					};
+				};
+			};
+			buildConfigurationList = 904A9F0929CF462200DE26C5 /* Build configuration list for PBXProject "Barter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 904A9F0529CF462200DE26C5;
+			productRefGroup = 904A9F0F29CF462200DE26C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				904A9F0D29CF462200DE26C5 /* Barter */,
+				904A9F2629CF462300DE26C5 /* BarterTests */,
+				904A9F3029CF462300DE26C5 /* BarterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		904A9F0C29CF462200DE26C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9024D5DE29D0248000E55F45 /* explode.gif in Resources */,
+				908F1BF729CFCC5E0004D0ED /* bump.mov in Resources */,
+				9067333829D04E2C0039CD16 /* GoogleService-Info.plist in Resources */,
+				904A9F2129CF462300DE26C5 /* LaunchScreen.storyboard in Resources */,
+				904A9F4629CF4DC500DE26C5 /* SignikaNegative-VariableFont_wght.ttf in Resources */,
+				904A9F5329CF635A00DE26C5 /* ItemCell.xib in Resources */,
+				904A9F1E29CF462300DE26C5 /* Assets.xcassets in Resources */,
+				9024D5D629CFF8CE00E55F45 /* swipeup.gif in Resources */,
+				904A9F1929CF462200DE26C5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904A9F2529CF462300DE26C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904A9F5429CF635A00DE26C5 /* ItemCell.xib in Resources */,
+				904A9F4729CF4DC500DE26C5 /* SignikaNegative-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904A9F2F29CF462300DE26C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904A9F5529CF635A00DE26C5 /* ItemCell.xib in Resources */,
+				904A9F4829CF4DC500DE26C5 /* SignikaNegative-VariableFont_wght.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		45124626DCFC5514FBEC1E7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Barter-BarterUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		527CFA4F42EBDB508BA496E7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Barter-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		67E3DEB2EFC3335DBA0F2339 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BarterTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C91D6CCD55201CF15BEEE42F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barter-BarterUITests/Pods-Barter-BarterUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barter-BarterUITests/Pods-Barter-BarterUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Barter-BarterUITests/Pods-Barter-BarterUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCACD315280FE29FC84149D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barter/Pods-Barter-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Barter/Pods-Barter-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Barter/Pods-Barter-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		904A9F0A29CF462200DE26C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9067333A29D06E760039CD16 /* SuccessVC.swift in Sources */,
+				9004AABA29CF99AB0042FEA2 /* MeetupVC.swift in Sources */,
+				9024D5DC29D01B3500E55F45 /* BarterVC.swift in Sources */,
+				9004AABE29CF9A5C0042FEA2 /* NearbyInteractionManager.swift in Sources */,
+				904A9F1629CF462200DE26C5 /* ViewController.swift in Sources */,
+				9024D5E029D0280700E55F45 /* MeetupSuccessVC.swift in Sources */,
+				904A9F4B29CF623400DE26C5 /* HapticManager.swift in Sources */,
+				904A9F5729CF63E800DE26C5 /* ItemCell.swift in Sources */,
+				9024D5D229CFEA3700E55F45 /* ItemVC.swift in Sources */,
+				9067333629D04CB40039CD16 /* FirestoreManager.swift in Sources */,
+				904A9F1229CF462200DE26C5 /* AppDelegate.swift in Sources */,
+				9004AAB429CF77BA0042FEA2 /* Item.swift in Sources */,
+				9004AAB829CF86130042FEA2 /* CustomNav.swift in Sources */,
+				904A9F1429CF462200DE26C5 /* SceneDelegate.swift in Sources */,
+				9024D5D829CFFBEA00E55F45 /* MapVC.swift in Sources */,
+				9024D5DA29D00CDA00E55F45 /* MyItemsVC.swift in Sources */,
+				908F1BF929CFCCD50004D0ED /* BumpVC.swift in Sources */,
+				9004AABD29CF9A5C0042FEA2 /* MultipeerConnectivityManager.swift in Sources */,
+				9004AAB629CF7B9A0042FEA2 /* MarketVC.swift in Sources */,
+				904A9F1C29CF462200DE26C5 /* Barter.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904A9F2329CF462300DE26C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904A9F4C29CF623400DE26C5 /* HapticManager.swift in Sources */,
+				904A9F2C29CF462300DE26C5 /* BarterTests.swift in Sources */,
+				904A9F5829CF63E800DE26C5 /* ItemCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		904A9F2D29CF462300DE26C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				904A9F5929CF63E800DE26C5 /* ItemCell.swift in Sources */,
+				904A9F3829CF462300DE26C5 /* BarterUITestsLaunchTests.swift in Sources */,
+				904A9F4D29CF623400DE26C5 /* HapticManager.swift in Sources */,
+				904A9F3629CF462300DE26C5 /* BarterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		904A9F2929CF462300DE26C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904A9F0D29CF462200DE26C5 /* Barter */;
+			targetProxy = 904A9F2829CF462300DE26C5 /* PBXContainerItemProxy */;
+		};
+		904A9F3329CF462300DE26C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 904A9F0D29CF462200DE26C5 /* Barter */;
+			targetProxy = 904A9F3229CF462300DE26C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		904A9F1729CF462200DE26C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904A9F1829CF462200DE26C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		904A9F1F29CF462300DE26C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				904A9F2029CF462300DE26C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		904A9F3929CF462300DE26C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		904A9F3A29CF462300DE26C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		904A9F3C29CF462300DE26C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 571268FF51AF9D462425D05A /* Pods-Barter.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTM4T27SRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Barter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pocket Trade";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "We want to steal your data.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We want to steal your data.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We want to steal your data.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to steal your data.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "We want to steal your data.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyndsproductions.Barter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		904A9F3D29CF462300DE26C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A980D2FBF11C1A4226EEC893 /* Pods-Barter.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTM4T27SRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Barter/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pocket Trade";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "We want to steal your data.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We want to steal your data.";
+				INFOPLIST_KEY_NSLocationUsageDescription = "We want to steal your data.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We want to steal your data.";
+				INFOPLIST_KEY_NSNearbyInteractionUsageDescription = "We want to steal your data.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyndsproductions.Barter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		904A9F3F29CF462300DE26C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C439DE53CC38106A50B4F985 /* Pods-BarterTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTM4T27SRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyndsproductions.BarterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Barter";
+			};
+			name = Debug;
+		};
+		904A9F4029CF462300DE26C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1647E133ABAAC99AE4D31DA3 /* Pods-BarterTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTM4T27SRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyndsproductions.BarterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Barter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Barter";
+			};
+			name = Release;
+		};
+		904A9F4229CF462300DE26C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A079AA170071B21816014A8E /* Pods-Barter-BarterUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTM4T27SRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyndsproductions.BarterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Barter;
+			};
+			name = Debug;
+		};
+		904A9F4329CF462300DE26C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C564A0FA73CF8AFF9F77E29 /* Pods-Barter-BarterUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BTM4T27SRW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hyndsproductions.BarterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Barter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		904A9F0929CF462200DE26C5 /* Build configuration list for PBXProject "Barter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904A9F3929CF462300DE26C5 /* Debug */,
+				904A9F3A29CF462300DE26C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904A9F3B29CF462300DE26C5 /* Build configuration list for PBXNativeTarget "Barter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904A9F3C29CF462300DE26C5 /* Debug */,
+				904A9F3D29CF462300DE26C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904A9F3E29CF462300DE26C5 /* Build configuration list for PBXNativeTarget "BarterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904A9F3F29CF462300DE26C5 /* Debug */,
+				904A9F4029CF462300DE26C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		904A9F4129CF462300DE26C5 /* Build configuration list for PBXNativeTarget "BarterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				904A9F4229CF462300DE26C5 /* Debug */,
+				904A9F4329CF462300DE26C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		904A9F1A29CF462200DE26C5 /* Barter.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				904A9F1B29CF462200DE26C5 /* Barter.xcdatamodel */,
+			);
+			currentVersion = 904A9F1B29CF462200DE26C5 /* Barter.xcdatamodel */;
+			path = Barter.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 904A9F0629CF462200DE26C5 /* Project object */;
+}
