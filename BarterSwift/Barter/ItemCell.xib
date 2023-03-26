@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SignikaNegative-VariableFont_wght.ttf">
+            <string>SignikaNegative-Light</string>
+            <string>SignikaNegative-Medium</string>
+            <string>SignikaNegative-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="celli" id="IoC-gF-XNT" customClass="ItemCell" customModule="Barter" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="344" height="442"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="oIf-22-Nee">
+                <rect key="frame" x="0.0" y="0.0" width="344" height="442"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z1y-Rn-Tbd">
+                        <rect key="frame" x="12" y="32" width="320" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="lYt-Ri-PV8"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SignikaNegative-Medium" family="Signika Negative" pointSize="40"/>
+                        <color key="textColor" name="TextMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hKF-ub-qyY">
+                        <rect key="frame" x="12" y="8" width="320" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="SN3-hH-qUh"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SignikaNegative-Light" family="Signika Negative" pointSize="19"/>
+                        <color key="textColor" name="TextMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Listed by:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TVN-1g-SfK">
+                        <rect key="frame" x="12" y="298" width="76" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="dHM-Ne-c9Z"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SignikaNegative-Light" family="Signika Negative" pointSize="19"/>
+                        <color key="textColor" name="TextMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tbh-oj-EZp">
+                        <rect key="frame" x="12" y="334" width="224" height="96"/>
+                        <string key="text">The description that is very long and dense with words in the English language will eventually reside within the confines of this spot in the user interface.</string>
+                        <fontDescription key="fontDescription" name="SignikaNegative-Light" family="Signika Negative" pointSize="19"/>
+                        <color key="textColor" name="TextMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="on" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ak8-lA-bG4">
+                        <rect key="frame" x="265" y="298" width="21" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="LfS-C3-GWr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SignikaNegative-Light" family="Signika Negative" pointSize="19"/>
+                        <color key="textColor" name="TextMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DATE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zob-6d-n85">
+                        <rect key="frame" x="290" y="298" width="42" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="2Cd-kA-aln"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SignikaNegative-Light" family="Signika Negative" pointSize="19"/>
+                        <color key="textColor" name="TextMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5us-z7-Sxl">
+                        <rect key="frame" x="8" y="82" width="328" height="212"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="212" id="tTM-Cs-Odc"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NAME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N73-sM-aDj">
+                        <rect key="frame" x="92" y="298" width="50" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="24" id="BVL-of-QrN"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="SignikaNegative-Light" family="Signika Negative" pointSize="19"/>
+                        <color key="textColor" name="TextMain"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.right.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="QRq-aW-vnN">
+                        <rect key="frame" x="236" y="335" width="96" height="94.666666666666686"/>
+                        <color key="tintColor" name="Content1"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="96" id="3Pg-ph-hj7"/>
+                            <constraint firstAttribute="width" constant="96" id="Ku0-Xa-mku"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HCh-nO-dDy">
+                        <rect key="frame" x="212" y="254" width="120" height="32"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="btn-B3-Gf0">
+                                <rect key="frame" x="0.0" y="2.3333333333333321" width="32" height="27.333333333333339"/>
+                                <color key="tintColor" name="BG-dark"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="32" id="aYj-lg-bvB"/>
+                                </constraints>
+                                <imageReference key="image" image="mappin.circle.fill" catalog="system" symbolScale="small"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3 miles away" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZc-Ta-iCI">
+                                <rect key="frame" x="34" y="7.9999999999999982" width="84" height="16.333333333333329"/>
+                                <fontDescription key="fontDescription" name="SignikaNegative-Regular" family="Signika Negative" pointSize="13"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="btn-B3-Gf0" secondAttribute="bottom" id="FHt-y0-yaT"/>
+                            <constraint firstItem="btn-B3-Gf0" firstAttribute="leading" secondItem="HCh-nO-dDy" secondAttribute="leading" id="FRu-MO-yTE"/>
+                            <constraint firstItem="btn-B3-Gf0" firstAttribute="top" secondItem="HCh-nO-dDy" secondAttribute="top" id="JpK-HZ-YIW"/>
+                            <constraint firstAttribute="width" constant="120" id="Q2y-Vk-sim"/>
+                            <constraint firstAttribute="trailing" secondItem="DZc-Ta-iCI" secondAttribute="trailing" constant="2" id="Zgr-p1-M5O"/>
+                            <constraint firstAttribute="height" constant="32" id="dQ8-xA-3df"/>
+                            <constraint firstItem="DZc-Ta-iCI" firstAttribute="centerY" secondItem="HCh-nO-dDy" secondAttribute="centerY" id="vu6-Nc-3vX"/>
+                            <constraint firstItem="DZc-Ta-iCI" firstAttribute="leading" secondItem="btn-B3-Gf0" secondAttribute="trailing" constant="2" id="xOK-Ta-CJ5"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Tbh-oj-EZp" secondAttribute="bottom" constant="12" id="26O-xw-jDW"/>
+                    <constraint firstItem="hKF-ub-qyY" firstAttribute="leading" secondItem="oIf-22-Nee" secondAttribute="leading" constant="12" id="4Tb-t6-vhN"/>
+                    <constraint firstItem="5us-z7-Sxl" firstAttribute="leading" secondItem="oIf-22-Nee" secondAttribute="leading" constant="8" id="AV2-Wm-GXN"/>
+                    <constraint firstItem="QRq-aW-vnN" firstAttribute="leading" secondItem="Tbh-oj-EZp" secondAttribute="trailing" id="Csk-CC-2Cw"/>
+                    <constraint firstItem="N73-sM-aDj" firstAttribute="top" secondItem="5us-z7-Sxl" secondAttribute="bottom" constant="4" id="FUv-5D-ePa"/>
+                    <constraint firstItem="QRq-aW-vnN" firstAttribute="top" secondItem="TVN-1g-SfK" secondAttribute="bottom" constant="12" id="FkW-N5-PWO"/>
+                    <constraint firstItem="Z1y-Rn-Tbd" firstAttribute="top" secondItem="hKF-ub-qyY" secondAttribute="bottom" id="GUC-La-9lz"/>
+                    <constraint firstItem="5us-z7-Sxl" firstAttribute="centerX" secondItem="oIf-22-Nee" secondAttribute="centerX" id="Ip7-Fd-wir"/>
+                    <constraint firstAttribute="trailing" secondItem="zob-6d-n85" secondAttribute="trailing" constant="12" id="JOu-vm-zb8"/>
+                    <constraint firstItem="TVN-1g-SfK" firstAttribute="top" secondItem="5us-z7-Sxl" secondAttribute="bottom" constant="4" id="MT7-hV-USa"/>
+                    <constraint firstAttribute="trailing" secondItem="QRq-aW-vnN" secondAttribute="trailing" constant="12" id="NlR-H5-ocP"/>
+                    <constraint firstItem="Tbh-oj-EZp" firstAttribute="top" secondItem="TVN-1g-SfK" secondAttribute="bottom" constant="12" id="Pez-4o-3TY"/>
+                    <constraint firstItem="hKF-ub-qyY" firstAttribute="top" secondItem="oIf-22-Nee" secondAttribute="top" constant="8" id="Rs5-lG-yJi"/>
+                    <constraint firstItem="5us-z7-Sxl" firstAttribute="top" secondItem="Z1y-Rn-Tbd" secondAttribute="bottom" id="W2v-ib-8u0"/>
+                    <constraint firstItem="Z1y-Rn-Tbd" firstAttribute="leading" secondItem="oIf-22-Nee" secondAttribute="leading" constant="12" id="axX-jb-OC4"/>
+                    <constraint firstAttribute="bottom" secondItem="QRq-aW-vnN" secondAttribute="bottom" constant="12" id="cVj-bZ-x9q"/>
+                    <constraint firstAttribute="trailing" secondItem="HCh-nO-dDy" secondAttribute="trailing" constant="12" id="hSP-fW-RdV"/>
+                    <constraint firstAttribute="trailing" secondItem="Z1y-Rn-Tbd" secondAttribute="trailing" constant="12" id="iWx-p0-Ho4"/>
+                    <constraint firstAttribute="trailing" secondItem="hKF-ub-qyY" secondAttribute="trailing" constant="12" id="ip6-sc-IRk"/>
+                    <constraint firstItem="Ak8-lA-bG4" firstAttribute="top" secondItem="5us-z7-Sxl" secondAttribute="bottom" constant="4" id="k6W-Wc-yh9"/>
+                    <constraint firstAttribute="trailing" secondItem="5us-z7-Sxl" secondAttribute="trailing" constant="8" id="n1b-zC-NAt"/>
+                    <constraint firstItem="Ak8-lA-bG4" firstAttribute="top" secondItem="HCh-nO-dDy" secondAttribute="bottom" constant="12" id="neD-T8-UCq"/>
+                    <constraint firstItem="Tbh-oj-EZp" firstAttribute="leading" secondItem="oIf-22-Nee" secondAttribute="leading" constant="12" id="s1t-ew-E4R"/>
+                    <constraint firstItem="TVN-1g-SfK" firstAttribute="leading" secondItem="oIf-22-Nee" secondAttribute="leading" constant="12" id="tcj-vS-Ohw"/>
+                    <constraint firstItem="zob-6d-n85" firstAttribute="leading" secondItem="Ak8-lA-bG4" secondAttribute="trailing" constant="4" id="xIB-Kf-IbP"/>
+                    <constraint firstItem="N73-sM-aDj" firstAttribute="leading" secondItem="TVN-1g-SfK" secondAttribute="trailing" constant="4" id="xPD-Lh-7Ta"/>
+                    <constraint firstItem="Ak8-lA-bG4" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="N73-sM-aDj" secondAttribute="trailing" constant="8" id="xtS-S6-R3A"/>
+                    <constraint firstItem="zob-6d-n85" firstAttribute="top" secondItem="5us-z7-Sxl" secondAttribute="bottom" constant="4" id="zPF-fI-AR9"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <color key="backgroundColor" name="BG-dark"/>
+            <size key="customSize" width="216" height="279"/>
+            <connections>
+                <outlet property="arrowImage" destination="QRq-aW-vnN" id="HKe-Aj-4eP"/>
+                <outlet property="arrowTrailing" destination="Csk-CC-2Cw" id="0yM-eV-dJ5"/>
+                <outlet property="descriptionLabel" destination="Tbh-oj-EZp" id="bn2-vU-IiT"/>
+                <outlet property="distance" destination="DZc-Ta-iCI" id="YpB-Xe-C3s"/>
+                <outlet property="distanceView" destination="HCh-nO-dDy" id="ddc-SS-jEh"/>
+                <outlet property="image" destination="5us-z7-Sxl" id="VSW-Ay-djp"/>
+                <outlet property="owner" destination="N73-sM-aDj" id="Ov5-8e-spb"/>
+                <outlet property="postDate" destination="zob-6d-n85" id="NCA-ea-zsb"/>
+                <outlet property="title" destination="Z1y-Rn-Tbd" id="EzG-qs-V94"/>
+                <outlet property="type" destination="hKF-ub-qyY" id="gnC-EI-NRZ"/>
+            </connections>
+            <point key="canvasLocation" x="310.76923076923077" y="-615.63981042654029"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="arrow.right.circle.fill" catalog="system" width="128" height="123"/>
+        <image name="mappin.circle.fill" catalog="system" width="128" height="123"/>
+        <namedColor name="BG-dark">
+            <color red="0.29803921568627451" green="0.24313725490196078" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Content1">
+            <color red="0.44313725490196076" green="0.62745098039215685" blue="0.6470588235294118" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextMain">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
